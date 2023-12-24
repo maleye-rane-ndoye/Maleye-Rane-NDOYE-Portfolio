@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+:root{
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    /* width: 100vw;
+    height: 100vh; */
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+   #root {
+    width: 100vw;
+    height: 100vh;
+   }
+
+
+
+   /* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(38, 108, 187); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #046179; 
+  }
+
+
+   @layer base {
+
+
+    li[data-selected="true"] {
+        @apply text-cyan-300;
+    }
+
+    .contact{ @apply 
+        overflow-y-scroll 
+        w-full 
+        h-auto 
+        rounded-r-md 
+        m-1 
+        bg-gradient-to-l from-[#0f0c29] via-[#302b63] to-[#24243e]  
+        flex flex-col 
+        items-center 
+        justify-center
+    }
+
+}
