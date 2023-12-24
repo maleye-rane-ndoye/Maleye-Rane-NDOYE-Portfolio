@@ -20,7 +20,7 @@ export default function FolioSide({title, subtitle, children}){
         <section className="w-full h-full flex flex-col overflow-hidden lg:flex-row">
                 <SideNaveBare />
 
-                <div className="FolioSide w-full h-full rounded-r-md m-1 bg-gradient-to-l from-[#0f0c29] via-[#302b63] to-[#24243e] overflow-auto flex flex-col items-center ">
+                <div className="FolioSide w-full h-full rounded-r-md m-1 bg-gradient-to-l from-[#0f0c29] via-[#302b63] to-[#24243e] overflow-y-scroll overflow-x-hidden flex flex-col items-center ">
 
                      <h1 className='text-white text-3xl font-bold m-2'>{title ?? 'Portfolio'}</h1>
                      <span className='text-white text-lg mb-3'>{subtitle ?? 'Most recent work'}</span>
