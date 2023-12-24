@@ -12,6 +12,8 @@ import FolioAll from "./DumbComponents/FolioAll"
 import FolioApp from "./DumbComponents/FolioApp"
 import FolioWeb from "./DumbComponents/FolioWeb"
 import FolioDesign from "./DumbComponents/FolioDesign"
+import './App.css'
+
 
 function App(){
 
