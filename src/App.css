@@ -163,6 +163,46 @@
 }
 
 
+/* side Content House style */
+
+
+.Home-content{@apply
+    w-full
+     flex 
+     flex-col 
+     flex-1 
+     rounded-r-md 
+     m-1 
+     bg-gradient-to-l 
+     from-[#0f0c29] 
+     via-[#302b63] 
+     to-[#24243e] 
+     items-center 
+     ml-0
+
+}
+
+.Home-content-img{@apply
+    w-52
+    h-56 
+    lg:h-64 
+    lg:w-72 
+    bg-white 
+    shadow-xl 
+    shadow-slate-900 
+    mt-2 
+    rounded-b-md 
+    flex  
+    flex-col 
+    items-center
+
+}
+
+
+
+
+
+
 
 
 
