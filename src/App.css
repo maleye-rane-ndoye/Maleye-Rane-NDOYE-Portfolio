@@ -178,24 +178,21 @@
      via-[#302b63] 
      to-[#24243e] 
      items-center 
-     ml-0
+     
 
 }
 
 .Home-content-img{@apply
-    w-52
-    h-56 
+    w-full
+    h-full 
+    flex  
+    flex-col
+    items-center
+    justify-center
+    space-y-10
+    
     lg:h-64 
     lg:w-72 
-    bg-white 
-    shadow-xl 
-    shadow-slate-900 
-    mt-2 
-    rounded-b-md 
-    flex  
-    flex-col 
-    items-center
-
 }
 
 
