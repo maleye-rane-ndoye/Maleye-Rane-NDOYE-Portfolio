@@ -22,9 +22,7 @@ export default function SideContentHouse(){
             </div>
 
 
-            <div className='w-full h-full bg-white m-2'>
-                <DownloadPdf/>
-            </div>
+            
         </div>
 
         
