@@ -137,6 +137,7 @@
      flex-col 
      items-center 
      space-y-6 
+
      p-4 
      font-semibold 
      truncate
@@ -168,32 +169,24 @@
 
 .Home-content{@apply
     w-full
-     flex 
-     flex-col 
-     flex-1 
-     rounded-r-md 
-     m-1 
-     bg-gradient-to-l 
-     from-[#0f0c29] 
-     via-[#302b63] 
-     to-[#24243e] 
-     items-center 
+    h-full
+    flex 
+    flex-col 
+    
+    rounded-r-md 
+    m-1
+    px-4
+    space-y-16
+    bg-gradient-to-l 
+    from-[#0f0c29] 
+    via-[#302b63] 
+    to-[#24243e] 
+     
      
 
 }
 
-.Home-content-img{@apply
-    w-full
-    h-full 
-    flex  
-    flex-col
-    items-center
-    justify-center
-    space-y-10
-    
-    lg:h-64 
-    lg:w-72 
-}
+
 
 
 
