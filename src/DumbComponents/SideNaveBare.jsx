@@ -5,8 +5,8 @@ export const navLinks = [
     {id: 'portfolio', name: 'Portfolio', icon: 'library_books',url:'/portfolio'},
     {id: 'aboutme', name: 'About me', icon: 'face',url:'/aboutme'},
     {id: 'cv', name: 'CV', icon: 'workspace_premium',url:'/cv'},
-    {id: 'skills', name: 'Skills', icon: 'rocket_launch',url:'/skills'},
-    {id: 'project', name: 'Project', icon: 'tactic',url:'/project'},
+    {id: 'skills', name: 'Skills', icon: 'tactic',url:'/skills'},
+    {id: 'project', name: 'Project', icon: 'rocket_launch',url:'/project'},
     {id: 'contact', name: 'Contact', icon: 'contact_support',url:'/contact'},
 ];
 

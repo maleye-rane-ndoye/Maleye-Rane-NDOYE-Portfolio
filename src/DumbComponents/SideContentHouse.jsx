@@ -12,10 +12,10 @@ export default function SideContentHouse(){
                         <h2 className=" font-extrabold text-2xl lg:text-3xl text-gray-100 ">Maleye Rane Ndoye</h2>
                     </div>
 
-                    <div className='w-full h-auto p-3 text-white font  font-light rounded border-2 m-0 mt-5 '>
+                    <div className='w-full h-auto p-3 text-white font  font-light rounded border-2 m-0 mt-5 lg:border-none'>
                       
-                            I am web developper with extensive experience 
-                            for over 3 years. My expertise is to create and website design, 
+                            I am web developper with extensive experience <br />
+                            for over 3 years. My expertise is to create and <br /> website design, 
                             graphic design and many more ...
                       
                     </div>
@@ -38,12 +38,6 @@ export default function SideContentHouse(){
                             <span className='text-white text-xl cursor-pointer hover:scale-125'><FaLinkedin/></span>
                     </div>
             </div>
-
-
-
-            
-        
-
 
 )
 }
