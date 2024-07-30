@@ -7,24 +7,25 @@ export default function SideContentHouse(){
     
         
             <div className="Home-content">
-                    <div>
+                    <div className='lg:flex flex-col items-center '>
                         <h1 className=" text-xl font-semibold text-gray-100  mt-10">Hello i am</h1>
                         <h2 className=" font-extrabold text-2xl lg:text-3xl text-gray-100 ">Maleye Rane Ndoye</h2>
                     </div>
 
-                    <div className='w-full h-auto p-3 text-white font  font-light rounded border-2 m-0 mt-5 lg:border-none'>
-                      
-                            I am web developper with extensive experience <br />
-                            for over 3 years. My expertise is to create and <br /> website design, 
-                            graphic design and many more ...
-                      
+                    <div className='w-full h-auto p-3 text-white font-light rounded border-2 m-0 mt-5 lg:border-none lg:flex lg:flex-col lg:items-center'>
+                           <p>  
+                                I am web developper with extensive experience
+                                for over 3 years. My expertise is to create and website design, 
+                                graphic design and many more ...
+                            </p> 
                     </div>
 
-                    <div className='w-full h-full m-0 flex flex-1 items-center justify-center'>
-                          <img className="w-72 h-72 rounded-full flex flex-row items-center" src={profile}/>
+                    <div className='sm:hidden w-full h-full m-0 flex flex-col items-center justify-around bg-white'>
+                          <div className='w-full h-full bg-slate-50'>1</div>
+                          <div className='w-full h-full bg-slate-200'>2</div>
+                          <div className='w-full h-full bg-slate-400'>3</div>
                     </div>
-
-
+                   
                     
                     <div className='m-0 flex flex-row items-center justify-center space-x-7'>
                         <button className=' w-32 h-10 m-0 rounded-2xl border-2 text-white text-lg font-semibold hover:scale-105'>see portfolio</button>
@@ -41,3 +42,5 @@ export default function SideContentHouse(){
 
 )
 }
+
+//<img className="w-72 h-72 rounded-full flex flex-row items-center" src={profile}/>
